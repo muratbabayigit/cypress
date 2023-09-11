@@ -1,0 +1,29 @@
+{
+  "name": "cypreess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_dashboard": "npx cypress run --record --key 92a55a41-4bfd-4284-a0be-63e2002385d4",
+    "dashboard_day04": "npx cypress run --spec 'e2e/day04' --record --key 92a55a41-4bfd-4284-a0be-63e2002385d4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
+    "pg": "^8.11.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "i": "^0.3.7",
+    "npm": "^9.8.0"
+  }
+}
